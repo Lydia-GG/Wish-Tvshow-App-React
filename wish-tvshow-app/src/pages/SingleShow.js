@@ -1,23 +1,21 @@
-import { Link } from 'react-router-dom';
+import FavoriteIcon from '../components/FavoriteIcon';
+import ShowCard from '../components/ShowCard';
 
 const SingleShow = ({ show }) => {
+  const { id, image, name } = show;
+
   return (
-    <div className="card">
-      <Link to={`/show/${show.id}`}>
-        <img
-          className="card-img-top"
-          src={
-            show.image
-              ? show.image.medium
-              : 'https://www.publicdomainpictures.net/pictures/280000/velka/not-found-image-15383864787lu.jpg'
-          }
-          alt={show.name}
-        />
-      </Link>
-      <div className="card-body">
-        <h5 className="card-title ">{show.name}</h5>
+    <div
+      className="card"
+      data-testid="singleshow-test"
+      data-testelementid={id}
+      image={image}
+    >
+      <ShowCard id={id} image={image} name={name} />
+
+      <div>
+        <FavoriteIcon id={id} />
       </div>
-      <button>more details...</button>
     </div>
   );
 };
