@@ -1,6 +1,8 @@
 # Wish-Tvshow-App-React  
+
 ##### - Wish tv Show app is an application the user can use to search about different types of shows comedy, drama or animation, etc...
-##### - Here is the API documentation :https://www.tvmaze.com/api .
+##### - Here is the API documentation with [Tvmaze]:https://www.tvmaze.com/api) .
+
 
 ## Demo :   
     
@@ -31,3 +33,14 @@ To get started you can simply clone the repo and install the dependencies
 ##### -When you click on the show poster you will get more information about the show (the official link, the Status, Rating, and the summary) and If there is any missing information you will see Alert Message like Not Found! or no Rating or summary.
 ##### -You should write a right word to get the results (no empty input or only spaces).
 ##### -You can use our app on many devices(pc, tablet or iPad, and mobile).
+=======
+### - Wish tv Show app is an application the user can use to search about different types of shows comedy, drama or animation, etc...
+### - Here is the API documentation :https://www.tvmaze.com/api .
+
+# App featuers :
+### - On the homepage, the user will find a list of shows    (used React pagination).
+### - The user can search about shows and it will display some information like the official link, the Status, Rating, and the summary.
+### - If there is any missing information the user will see Alert Message like Not Found!.
+### - The user should write the right words to get results (empty input or only spaces will not be accepted) or an Alert message.
+### - I will use different React hooks.    
+
