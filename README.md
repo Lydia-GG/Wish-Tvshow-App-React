@@ -6,7 +6,7 @@
 
 ## Demo :   
     
-##### Here us the projetct demo :   [Wish Tvshow](https://wish-tvshow-app-react.netlify.app/)
+##### Here is the projetct demo :   [Wish Tvshow](https://wish-tvshow-app-react.netlify.app/)
 
 
 ### The rendered output looks like this:
