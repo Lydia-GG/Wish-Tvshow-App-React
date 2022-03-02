@@ -28,7 +28,7 @@ To get started you can simply clone the repo and install the dependencies
     
 
 ## App featuers :
-##### -On the homepage,you can find a list of shows.
+##### -On the homepage, you can find a list of shows divided into pages.
 ##### -You can search about shows and you will get the results (the show name, poster) and you can add/remove a show to/from your favorites List.
 ##### -when you leave the website and come back later you will find your favorites.
 ##### -When you click on the show poster you will get more information about the show (the official link, the Status, Rating, and the summary) and If there is any missing information you will see Alert Message like Not Found! or no Rating or summary.
