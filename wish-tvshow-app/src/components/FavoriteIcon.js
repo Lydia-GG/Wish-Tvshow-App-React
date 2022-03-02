@@ -8,8 +8,8 @@ const FavoriteIcon = ({ id }) => {
 
   return (
     <div
+      className="favorite-icon"
       onClick={(e) => {
-        e.preventDefault();
         toggleFavorite(id);
       }}
       className="favorite-icon"

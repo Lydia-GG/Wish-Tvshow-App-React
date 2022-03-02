@@ -14,7 +14,7 @@ export const ShowsProvider = ({ children }) => {
   };
 
   const toggleFavorite = (id) => {
-    const inFavorite = favorites.includes(id);
+    const inFavorite = isFavorite(id);
     if (inFavorite) {
       const favoritesList = favorites.filter((favorite) => favorite !== id);
       setFavorites(favoritesList);

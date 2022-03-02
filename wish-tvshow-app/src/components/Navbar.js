@@ -20,7 +20,7 @@ const Navbar = () => {
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
-            aria-expanded={!isNavCollapsed ? false : true}
+            aria-expanded="false"
             aria-label="Toggle navigation"
             onClick={handleNavCollapse}
           >

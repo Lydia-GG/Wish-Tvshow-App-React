@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import useFetch from '../hooks/useFetch';
 import FavoriteIcon from '../components/FavoriteIcon';
 import ShowCard from '../components/ShowCard';
+import Alert from '../components/Alert';
 
 const ShowDetails = () => {
   const { id } = useParams();
@@ -35,14 +36,17 @@ const ShowDetails = () => {
           />
         </div>
       )}
-      {error && <h3>Loading Error...</h3>}
+      {error && (
+        <Alert
+          message="Something went wrong please try again later"
+          type="warning text-center"
+        />
+      )}
       {show && (
         <div className="show-details-container">
           <div className="container-card">
             <ShowCard id={show.id} image={show.image} name={show.name} />
-            <div className="icon-container">
-              <FavoriteIcon id={idNumber} />
-            </div>
+            <FavoriteIcon id={idNumber} />
           </div>
           <div className="text-details">
             <ul className="list-group list-group-flush">

@@ -89,9 +89,7 @@ const Search = () => {
             return (
               <div className="search-item">
                 <ShowCard id={id} image={image} name={name} />
-                <div className="icon-container">
-                  <FavoriteIcon id={id} />
-                </div>
+                <FavoriteIcon id={id} />
               </div>
             );
           })}

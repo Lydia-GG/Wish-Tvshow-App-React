@@ -69,7 +69,7 @@ body {
   min-height: 100vh;
 }
 
-.aboutpage-conten {
+.aboutpage-content {
   width: 90%;
   margin: auto;
 }
@@ -107,6 +107,7 @@ body {
 .about-page h6 {
   margin: 30px 0;
 }
+
 /* single show page & show card page*/
 .card {
   width: 17rem;
@@ -128,38 +129,34 @@ body {
   width: 100% !important;
 }
 
-.card a {
+/* .card a {
   text-decoration: none;
 }
 
-.show-type {
-  cursor: auto;
-}
-
 .card-body {
-  padding-bottom: 40px;
-}
-
-.card-body h5 {
-  margin-top: 20px;
-}
+  height: 60px !important;
+} */
 
 .card:hover {
   transform: scale(1.03);
   transition: all 0.3s ease-in-out;
 }
 
+.card-body h5 {
+  margin-top: 20px;
+}
+
 .card-container .card-title {
   margin: 15px;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 /* favorite icon */
 .favorite-icon {
   display: inline-block;
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
+  bottom: 40px;
+  left: 230px;
+  position: relative;
 }
 
 .favorite-icon i {
@@ -186,12 +183,6 @@ body {
 .container-card {
   width: 280px;
   position: relative;
-}
-
-.show-details-container .icon-container {
-  position: absolute;
-  right: 15px;
-  bottom: 0px;
 }
 
 .text-details {
@@ -238,15 +229,6 @@ body {
 .search-item {
   margin: 20px;
   width: 300px;
-}
-
-.search-item .icon-container {
-  margin-top: -12px;
-}
-
-.icon-container {
-  position: relative;
-  top: 15px;
 }
 
 /* favorites page */
@@ -372,6 +354,9 @@ body {
   }
   .form {
     width: 90%;
+  }
+  .footer h4 {
+    font-size: 16px;
   }
   .footer .social-media ul li {
     margin: 5px 0 0 10px;

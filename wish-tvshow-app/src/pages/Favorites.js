@@ -13,7 +13,6 @@ const Favorites = () => {
     const promises = favorites.map((id) => {
       return fetch(`https://api.tvmaze.com/shows/${id}`);
     });
-    setError(false);
 
     Promise.all(promises)
       .then((responses) => {
