@@ -72,5 +72,14 @@ describe('ShowsContext', () => {
       'data-value',
       '[1]'
     );
+    fireEvent.click(btnElement);
+    expect(screen.getByTestId('isFavorite-test')).toHaveAttribute(
+      'data-value',
+      'false'
+    );
+    expect(screen.getByTestId('favorites-test')).toHaveAttribute(
+      'data-value',
+      '[]'
+    );
   });
 });
